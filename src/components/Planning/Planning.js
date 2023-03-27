@@ -7,7 +7,7 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 export default function Planning() {
   return (
     <>
-      <div className="planning desktop-layout">
+      <section className="planning desktop-layout">
         <div className="container w-auto-mobile">
           <div className="row custom-row">
             <div className="col-6">
@@ -171,9 +171,9 @@ export default function Planning() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="layout-mobile">
+      <section className="layout-mobile">
         <div className="planning-mobile d-flex justify-content-center">
           <div className="d-flex flex-column">
             <div className="d-flex justify-content-center">
@@ -273,7 +273,7 @@ export default function Planning() {
             </a>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

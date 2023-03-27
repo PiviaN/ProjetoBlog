@@ -20,7 +20,7 @@ function FindOut() {
   });
 
   return (
-    <div className="find-out">
+    <section className="find-out">
       <div
         id="carouselExampleAutoPlaying"
         className="carousel slide container w-auto-mobile"
@@ -120,7 +120,7 @@ function FindOut() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+    </section>
   );
 }
 
