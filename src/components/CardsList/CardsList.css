@@ -109,7 +109,7 @@
 
   .double-triangle {
     background-image: url(../../assets/double-triangle-bg.png);
-    background-size: cover;
+    background-size: 104% 100%;
     background-repeat: no-repeat;
     background-position-x: -10px;
     background-position-y: 12px;

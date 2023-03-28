@@ -1,8 +1,6 @@
 .find-out {
   height: 796px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: rgb(250, 250, 250);
   position: relative;
   width: 100%;
@@ -71,7 +69,11 @@
 }
 
 @media (max-width: 1199.98px) {
-  .find-out {
+  .find-out-desktop {
+    display: none !important;
+  }
+
+  .find-out-mobile {
     height: 696px !important;
   }
 
@@ -85,12 +87,12 @@
   }
 
   .control-title {
-    max-width: 81.42vw;
+    max-width: 320px;
     min-height: 176px;
   }
 
   .control-description {
-    max-width: 83.97vw;
+    max-width: 330px;
     min-height: 177px;
   }
 
@@ -104,6 +106,10 @@
 }
 
 @media (min-width: 1200px) {
+  .find-out-mobile {
+    display: none !important;
+  }
+
   .title {
     font-size: 66px;
     line-height: 99px;

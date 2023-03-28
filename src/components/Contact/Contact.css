@@ -1,0 +1,79 @@
+@media (max-width: 1199.98px) {
+  .contact-mobile {
+    height: 351px;
+    border: 1px solid #6c6868;
+    background-color: #6c6868;
+  }
+
+  .contact-desktop {
+    display: none !important;
+  }
+
+  .contact-title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .contact-subtitle {
+    font-size: 16px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-mobile {
+    display: none !important;
+  }
+
+  .contact-desktop {
+    height: 351px;
+    border: 1px solid #6c6868;
+    background-color: #6c6868;
+  }
+
+  .contact-title {
+    font-size: 3rem;
+    line-height: 72px;
+  }
+
+  .contact-subtitle {
+    font-size: 1.25rem;
+    line-height: 36px;
+  }
+}
+
+.contact-title {
+  letter-spacing: 0px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.contact-subtitle {
+  color: #ffffff;
+  letter-spacing: 0px;
+  margin-bottom: 1rem;
+}
+
+.button-contact {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 39px;
+  width: 15.188rem;
+  border: none;
+}
+
+.button-contact-p {
+  letter-spacing: 0px;
+  color: #707070;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.button-contact:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
