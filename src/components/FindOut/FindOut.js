@@ -20,15 +20,15 @@ function FindOut() {
   });
 
   return (
-    <section className="find-out">
+    <section className="find-out d-flex justify-content-center find-out-desktop">
       <div
         id="carouselExampleAutoPlaying"
-        className="carousel slide container w-auto-mobile"
+        className="carousel slide container no-container-mobile"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
-          <div className="carousel-item active container">
-            <div className="d-flex flex-column w-100">
+          <div className="carousel-item active no-container-mobile">
+            <div className="d-flex flex-column">
               <div className="control-title">
                 <h1 className="title">para e-commerce & marketplace 1</h1>
               </div>

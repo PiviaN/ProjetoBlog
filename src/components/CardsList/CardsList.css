@@ -20,11 +20,171 @@
   .desktop-layout {
     display: none !important;
   }
+
+  .control-card-ux {
+    margin-right: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-ux {
+    height: 204px;
+    width: 14.563rem;
+    background-image: url(../../../src/assets/card-background.png);
+    box-shadow: 0px 0px 3px #00000029;
+  }
+
+  .card-ux-title {
+    text-transform: uppercase;
+    color: #707070;
+    font-size: 1rem;
+    line-height: 25px;
+    margin-bottom: 8px;
+    width: 8rem;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .control-card-ux-subtitle {
+    width: 8rem;
+    min-height: 38px;
+  }
+
+  .card-ux-subtitle {
+    font-size: 14px;
+    line-height: 18px;
+    color: #707070;
+    text-align: left;
+  }
+
+  .saiba-mais {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 20px;
+    width: 10.875rem;
+    height: 39px;
+    border: none;
+    margin-top: -1.5rem;
+  }
+
+  .saiba-mais:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+  .saiba-mais-p {
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #707070;
+  }
+
+  .cards-stretched {
+    overflow-x: auto;
+  }
+
+  .big-card-texts {
+    margin-bottom: 26px;
+    margin-top: 84px;
+  }
+
+  .big-card-title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 48px;
+    color: #707070;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .big-card-subtitle {
+    color: #707070;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 26px;
+  }
+
+  .double-triangle {
+    background-image: url(../../assets/double-triangle-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -10px;
+    background-position-y: 12px;
+  }
+
+  .double-triangle-title {
+    color: #707070;
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-size: 1rem;
+    line-height: 36px;
+  }
+
+  .control-double-triangle-subtitle {
+    max-width: 322px;
+    min-height: 104px;
+  }
+
+  .control-pt {
+    padding-top: 50px;
+  }
+
+  .big-white-circle {
+    height: 171px;
+    background-color: white;
+    width: 100%;
+    margin-top: 164px;
+    border-radius: 0px 0px 600px 600px;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .small-circle {
+    width: 32px;
+    height: 32px;
+    background-color: #d8d8d8;
+    border-radius: 34px;
+  }
+
+  .big-circle {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 34px;
+    background-color: #6c6868;
+    width: 68px;
+    height: 68px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .circles {
+    margin-bottom: -2.2rem;
+  }
+
+  .control-text-middle-absolute {
+    position: absolute;
+    top: 40px;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    max-width: 178px;
+    min-height: 68px;
+  }
+
+  .text-middle-absolute {
+    color: #707070;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0px;
+  }
 }
 
 @media (min-width: 1200px) {
   .cards-list {
     margin-top: 96px;
+    margin-bottom: 103px;
   }
 
   .lists-title {
@@ -86,7 +246,7 @@
 
   .saiba-mais:hover {
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.7;
   }
 
   .saiba-mais-p {
@@ -180,6 +340,10 @@
 
   .big-card-button:hover {
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 0.7;
+  }
+
+  .mobile-layout {
+    display: none !important;
   }
 }

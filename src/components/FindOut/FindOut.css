@@ -40,7 +40,7 @@
 
 .button-get-to-know:hover {
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .p-button {
@@ -70,13 +70,13 @@
   background-color: #fff;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 1199.98px) {
   .find-out {
     height: 696px !important;
   }
 
   .title {
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 60px;
   }
 
@@ -85,26 +85,25 @@
   }
 
   .control-title {
-    max-width: 320px;
+    max-width: 81.42vw;
     min-height: 176px;
   }
 
   .control-description {
-    max-width: 330px;
+    max-width: 83.97vw;
     min-height: 177px;
   }
 
-  .w-auto-mobile {
-    width: auto;
-  }
-
-  .container-mobile {
-    display: flex !important;
-    justify-content: center !important;
+  .no-container-mobile {
+    width: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .title {
     font-size: 66px;
     line-height: 99px;

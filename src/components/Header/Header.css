@@ -54,14 +54,14 @@
   border: 1px solid #707070;
   border-radius: 20px;
   height: 2.5rem;
-  min-width: 12.55vw;
+  width: 15.063rem;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 1.5rem;
   white-space: nowrap;
-  margin-left: 20%;
+  margin-left: 12.5%;
 }
 
 .order-p {
