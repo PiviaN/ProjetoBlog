@@ -45,14 +45,12 @@
 }
 
 .contact-title {
-  letter-spacing: 0px;
   color: #ffffff;
   margin-bottom: 8px;
 }
 
 .contact-subtitle {
   color: #ffffff;
-  letter-spacing: 0px;
   margin-bottom: 1rem;
 }
 
@@ -69,7 +67,6 @@
 }
 
 .button-contact-p {
-  letter-spacing: 0px;
   color: #707070;
   font-weight: 300;
   font-size: 1rem;

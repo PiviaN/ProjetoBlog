@@ -19,7 +19,6 @@
 
 .white-number,
 .black-number {
-  letter-spacing: 0px;
   font-size: 16px;
   line-height: 32px;
   font-weight: bold;
@@ -39,7 +38,6 @@
 .subtitle-info {
   text-align: left;
   color: #707070;
-  letter-spacing: 0px;
 }
 
 .title-planning {
@@ -62,7 +60,6 @@
 .link-info-planning {
   font-weight: 300;
   text-decoration: none;
-  letter-spacing: 0px;
   text-align: left;
   color: #6c6868;
 }
@@ -81,7 +78,6 @@
 .subtitle-emphasis,
 .description-emphasis {
   color: #707070;
-  letter-spacing: 0px;
 }
 
 .title-emphasis {
@@ -94,7 +90,6 @@
 }
 
 .mini-title {
-  letter-spacing: 0px;
   font-weight: bold;
   color: #707070;
 }
@@ -102,7 +97,6 @@
 .mini-description {
   font-weight: 300;
   color: #707070;
-  letter-spacing: 0px;
 }
 
 .mr-mini {
@@ -225,7 +219,7 @@
 
   .subtitle-emphasis {
     color: #707070;
-    letter-spacing: 0px;
+
     font-size: 24px;
     line-height: 35px;
     font-weight: bold;

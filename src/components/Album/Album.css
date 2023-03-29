@@ -1,17 +1,14 @@
 .album-title {
   color: #707070;
-  letter-spacing: 0px;
   font-weight: bold;
 }
 
 .album-description {
   color: #707070;
-  letter-spacing: 0px;
   font-weight: 300;
 }
 
 .top-album-title {
-  letter-spacing: 0px;
   font-weight: 600;
   color: #707070;
 }
@@ -19,14 +16,12 @@
 .top-album-subtitle {
   text-align: center;
   color: #707070;
-  letter-spacing: 0px;
   font-weight: 300;
 }
 
 .top-album-description {
   text-align: center;
   color: #707070;
-  letter-spacing: 0px;
   font-weight: 200;
 }
 
