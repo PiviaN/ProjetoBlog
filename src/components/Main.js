@@ -1,4 +1,5 @@
 import React from "react";
+import Album from "./Album/Album";
 import CardsList from "./CardsList/CardsList";
 import Contact from "./Contact/Contact";
 import FindOut from "./FindOut/FindOut";
@@ -11,6 +12,7 @@ export default function Main() {
       <Planning />
       <CardsList />
       <Contact />
+      <Album />
     </main>
   );
 }

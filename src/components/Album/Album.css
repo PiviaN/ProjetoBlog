@@ -1,0 +1,234 @@
+.album-title {
+  color: #707070;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+
+.album-description {
+  color: #707070;
+  letter-spacing: 0px;
+  font-weight: 300;
+}
+
+.top-album-title {
+  letter-spacing: 0px;
+  font-weight: 600;
+  color: #707070;
+}
+
+.top-album-subtitle {
+  text-align: center;
+  color: #707070;
+  letter-spacing: 0px;
+  font-weight: 300;
+}
+
+.top-album-description {
+  text-align: center;
+  color: #707070;
+  letter-spacing: 0px;
+  font-weight: 200;
+}
+
+@media (max-width: 1199.98px) {
+  .album-desktop {
+    display: none !important;
+  }
+
+  .control-album-title {
+    width: 274px;
+    height: 99px;
+    text-align: left !important;
+    margin-top: 74px;
+  }
+
+  .album-title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .control-album-description {
+    width: 322px;
+    height: 104px;
+    text-align: left;
+    margin-bottom: 34px;
+  }
+
+  .album-description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .lateral-image-mobile {
+    width: 243px;
+    height: 239px;
+    margin-left: -5rem;
+    margin-right: 1rem;
+  }
+
+  .control-top-album-title {
+    text-align: left;
+    width: 173px;
+    height: 128px;
+    margin-bottom: 8px;
+  }
+
+  .top-album-title {
+    font-size: 1rem;
+    line-height: 21px;
+  }
+
+  .top-album-subtitle {
+    text-align: left;
+    width: 113px;
+    height: 44px;
+    text-align: 16px;
+    line-height: 21px;
+    margin-bottom: 4px;
+  }
+
+  .top-album-description {
+    font-size: 14px;
+    line-height: 36px;
+    text-align: left;
+  }
+
+  .black-selector {
+    width: 46px;
+    margin-top: 1rem;
+    margin-bottom: 82px;
+  }
+
+  .control-album-title {
+    width: 274px;
+    height: 99px;
+    margin-bottom: 8px;
+    text-align: right;
+    margin-left: 82px;
+  }
+
+  .album-title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .control-album-description {
+    width: 322px;
+    height: 104px;
+    margin-bottom: 1rem;
+    margin-left: 35px;
+    text-align: right;
+  }
+
+  .album-description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .album-pictures {
+    width: 322px;
+    flex-wrap: wrap;
+    margin-left: 35px;
+    justify-content: space-between;
+    margin-bottom: 115px;
+  }
+
+  .card-album {
+    margin-bottom: 6px;
+    width: 58px;
+    height: 57px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .album-mobile {
+    display: none !important;
+  }
+
+  .lateral-image {
+    width: 19.69vw;
+    height: 1574px;
+  }
+
+  .top-album {
+    width: 100%;
+    padding-left: 8.5vw;
+    padding-top: 93px;
+    padding-bottom: 7.2vw;
+  }
+
+  .control-album-title {
+    max-width: 365px;
+    min-height: 139px;
+    margin-right: 111px;
+  }
+
+  .album-title {
+    font-size: 48px;
+    line-height: 72px;
+  }
+
+  .control-album-description {
+    max-width: 381px;
+    min-height: 83px;
+  }
+
+  .album-description {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+  }
+
+  .top-album-circle {
+    width: 208px;
+    height: 197px;
+    margin-left: 20rem;
+  }
+
+  .control-top-album-title {
+    width: 884px;
+    min-height: 75px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .top-album-title {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .top-album-subtitle {
+    width: 884px;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .top-album-description {
+    width: 884px;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .control-selector {
+    width: 884px;
+    margin-top: 1rem;
+    margin-bottom: 185px;
+  }
+
+  .album-pictures {
+    width: 884px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+
+  .card-album {
+    margin-bottom: 28px;
+    margin-right: 24px;
+    width: 152px;
+    height: 152px;
+  }
+}
