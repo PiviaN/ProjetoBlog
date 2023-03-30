@@ -99,7 +99,6 @@
     height: 99px;
     margin-bottom: 8px;
     text-align: right;
-    margin-left: 82px;
   }
 
   .album-title {
@@ -111,7 +110,6 @@
     width: 322px;
     height: 104px;
     margin-bottom: 1rem;
-    margin-left: 35px;
     text-align: right;
   }
 
@@ -123,7 +121,6 @@
   .album-pictures {
     width: 322px;
     flex-wrap: wrap;
-    margin-left: 35px;
     justify-content: space-between;
     margin-bottom: 115px;
   }

@@ -107,28 +107,32 @@ export default function Album() {
           </div>
         </div>
 
-        <div className="control-album-title">
-          <h1 className="album-title">Lorem ipsum dolor sit amet.</h1>
-        </div>
-        <div className="control-album-description">
-          <p className="album-description">
-            É a primeira etapa e talvez uma das mais importantes. É onde as
-            definições acontecem, fazer de forma bem pensada trará uma economia
-            futura de tempo e com certeza de dinheiro.
-          </p>
-        </div>
+        <div className="d-flex justify-content-center">
+          <div className="d-flex flex-column">
+            <div className="control-album-title">
+              <h1 className="album-title">Lorem ipsum dolor sit amet.</h1>
+            </div>
+            <div className="control-album-description">
+              <p className="album-description">
+                É a primeira etapa e talvez uma das mais importantes. É onde as
+                definições acontecem, fazer de forma bem pensada trará uma
+                economia futura de tempo e com certeza de dinheiro.
+              </p>
+            </div>
 
-        <div className="d-flex align-items-center album-pictures">
-          <img src={cardAlbum} alt="card" className="card-album"></img>
-          <img src={cardAlbum} alt="card" className="card-album"></img>
-          <img src={cardAlbum} alt="card" className="card-album"></img>
-          <img src={cardAlbum} alt="card" className="card-album"></img>
-          <img src={cardAlbum} alt="card" className="card-album"></img>
-          <img src={cardAlbum} alt="card" className="card-album"></img>
-          <img src={cardAlbum} alt="card" className="card-album"></img>
-          <img src={cardAlbum} alt="card" className="card-album"></img>
-          <img src={cardAlbum} alt="card" className="card-album"></img>
-          <img src={cardAlbum} alt="card" className="card-album"></img>
+            <div className="d-flex align-items-center album-pictures">
+              <img src={cardAlbum} alt="card" className="card-album"></img>
+              <img src={cardAlbum} alt="card" className="card-album"></img>
+              <img src={cardAlbum} alt="card" className="card-album"></img>
+              <img src={cardAlbum} alt="card" className="card-album"></img>
+              <img src={cardAlbum} alt="card" className="card-album"></img>
+              <img src={cardAlbum} alt="card" className="card-album"></img>
+              <img src={cardAlbum} alt="card" className="card-album"></img>
+              <img src={cardAlbum} alt="card" className="card-album"></img>
+              <img src={cardAlbum} alt="card" className="card-album"></img>
+              <img src={cardAlbum} alt="card" className="card-album"></img>
+            </div>
+          </div>
         </div>
       </section>
     </>
