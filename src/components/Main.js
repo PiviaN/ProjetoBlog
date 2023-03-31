@@ -6,6 +6,7 @@ import CardsList from "./CardsList/CardsList";
 import Contact from "./Contact/Contact";
 import FindOut from "./FindOut/FindOut";
 import Planning from "./Planning/Planning";
+import Form from "./Form/Form";
 
 export default function Main() {
   return (
@@ -17,6 +18,7 @@ export default function Main() {
       <Album />
       <CardGroup />
       <Blog />
+      <Form />
     </main>
   );
 }
