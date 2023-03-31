@@ -160,7 +160,7 @@ export default function Blog() {
 
       <section className="blog-mobile">
         <div className="d-flex flex-column">
-          <div className="d-flex overflow-x-hidden">
+          <div className="d-flex overflow-x-hidden justify-content-center">
             <div className="control-blog-title">
               <h1 className="blog-title">Lorem ipsum dolor sit amet.</h1>
             </div>
@@ -168,8 +168,10 @@ export default function Blog() {
               <FontAwesomeIcon icon={faArrowRight} size="2xl" color="#fff" />
             </div>
           </div>
-          <p className="blog-subtitle">Lorem ipsum dolor sit amet.</p>
-          <div className="d-flex align-items-center search-area">
+          <p className="blog-subtitle text-center">
+            Lorem ipsum dolor sit amet.
+          </p>
+          <div className="d-flex align-items-center justify-content-center search-area">
             <FontAwesomeIcon
               icon={faSearch}
               size="sm"

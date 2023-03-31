@@ -103,10 +103,9 @@
 @media (max-width: 1199.98px) {
   .form {
     height: 615px;
-    padding-left: 36px;
-    padding-right: 36px;
-    padding-top: 107px;
-    padding-bottom: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .form-title {
