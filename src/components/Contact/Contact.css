@@ -1,47 +1,7 @@
-@media (max-width: 1199.98px) {
-  .contact-mobile {
-    height: 351px;
-    border: 1px solid #6c6868;
-    background-color: #6c6868;
-  }
-
-  .contact-desktop {
-    display: none !important;
-  }
-
-  .contact-title {
-    font-size: 36px;
-    line-height: 48px;
-    width: 274px;
-    height: 99px;
-  }
-
-  .contact-subtitle {
-    font-size: 16px;
-    line-height: 36px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .contact-mobile {
-    display: none !important;
-  }
-
-  .contact-desktop {
-    height: 351px;
-    border: 1px solid #6c6868;
-    background-color: #6c6868;
-  }
-
-  .contact-title {
-    font-size: 3rem;
-    line-height: 72px;
-  }
-
-  .contact-subtitle {
-    font-size: 1.25rem;
-    line-height: 36px;
-  }
+.contact-desktop,
+.contact-mobile {
+  border: 1px solid #6c6868;
+  background-color: #6c6868;
 }
 
 .contact-title {
@@ -75,4 +35,46 @@
 .button-contact:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+@media (max-width: 1199.98px) {
+  .contact-mobile {
+    height: 351px;
+  }
+
+  .contact-desktop {
+    display: none !important;
+  }
+
+  .contact-title {
+    font-size: 36px;
+    line-height: 48px;
+    width: 274px;
+    height: 99px;
+  }
+
+  .contact-subtitle {
+    font-size: 16px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-mobile {
+    display: none !important;
+  }
+
+  .contact-desktop {
+    height: 351px;
+  }
+
+  .contact-title {
+    font-size: 3rem;
+    line-height: 72px;
+  }
+
+  .contact-subtitle {
+    font-size: 1.25rem;
+    line-height: 36px;
+  }
 }

@@ -40,7 +40,7 @@ export default function Blog() {
                 <div className="control-big-description">
                   <p className="big-description">
                     É a primeira etapa e talvez uma das mais importantes. É onde
-                    as definições acontecem.
+                    as definições acontecem. ue
                   </p>
                 </div>
                 <a className="read-link">Ler completo&gt;</a>

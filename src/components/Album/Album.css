@@ -1,28 +1,48 @@
-.album-title {
+.album-title,
+.album-description,
+.top-album-title,
+.top-album-subtitle,
+.top-album-description {
   color: #707070;
-  font-weight: bold;
 }
 
-.album-description {
-  color: #707070;
+.top-album-subtitle,
+.top-album-description {
+  text-align: center;
+}
+
+.album-description,
+.top-album-subtitle {
   font-weight: 300;
+}
+
+.album-title {
+  font-weight: bold;
 }
 
 .top-album-title {
   font-weight: 600;
-  color: #707070;
-}
-
-.top-album-subtitle {
-  text-align: center;
-  color: #707070;
-  font-weight: 300;
 }
 
 .top-album-description {
-  text-align: center;
-  color: #707070;
   font-weight: 200;
+}
+
+.mb-34 {
+  margin-bottom: 34px;
+}
+
+.control-album-description {
+  width: 322px;
+  height: 104px;
+}
+
+.control-album-title-1 {
+  text-align: left;
+}
+
+.control-album-title-2 {
+  text-align: right;
 }
 
 @media (max-width: 1199.98px) {
@@ -33,8 +53,8 @@
   .control-album-title {
     width: 274px;
     height: 99px;
-    text-align: left !important;
     margin-top: 74px;
+    margin-bottom: 8px;
   }
 
   .album-title {
@@ -42,11 +62,8 @@
     line-height: 48px;
   }
 
-  .control-album-description {
-    width: 322px;
-    height: 104px;
+  .control-album-description-1 {
     text-align: left;
-    margin-bottom: 34px;
   }
 
   .album-description {
@@ -94,22 +111,7 @@
     margin-bottom: 82px;
   }
 
-  .control-album-title {
-    width: 274px;
-    height: 99px;
-    margin-bottom: 8px;
-    text-align: right;
-  }
-
-  .album-title {
-    font-size: 36px;
-    line-height: 48px;
-  }
-
-  .control-album-description {
-    width: 322px;
-    height: 104px;
-    margin-bottom: 1rem;
+  .control-album-description-2 {
     text-align: right;
   }
 

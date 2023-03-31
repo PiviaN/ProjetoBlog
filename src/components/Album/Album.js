@@ -68,10 +68,10 @@ export default function Album() {
       <section className="album album-mobile">
         <div className="d-flex justify-content-center">
           <div className="d-flex flex-column">
-            <div className="control-album-title">
+            <div className="control-album-title control-album-title-1">
               <h1 className="album-title">Lorem ipsum dolor sit amet.</h1>
             </div>
-            <div className="control-album-description">
+            <div className="control-album-description control-album-description-1 mb-34">
               <p className="album-description">
                 É a primeira etapa e talvez uma das mais importantes. É onde as
                 definições acontecem, fazer de forma bem pensada trará uma
@@ -109,10 +109,12 @@ export default function Album() {
 
         <div className="d-flex justify-content-center">
           <div className="d-flex flex-column">
-            <div className="control-album-title">
-              <h1 className="album-title">Lorem ipsum dolor sit amet.</h1>
+            <div className="d-flex justify-content-end">
+              <div className="control-album-title control-album-title-2">
+                <h1 className="album-title">Lorem ipsum dolor sit amet.</h1>
+              </div>
             </div>
-            <div className="control-album-description">
+            <div className="control-album-description control-album-description-2 mb-3">
               <p className="album-description">
                 É a primeira etapa e talvez uma das mais importantes. É onde as
                 definições acontecem, fazer de forma bem pensada trará uma
