@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <nav className="navbar navbar-expand-xl">
       <div className="container container-fluid">
-        <a className="navbar-brand" href="#">
+        <a href="https://google.com" className="navbar-brand">
           <img src={logo} alt="logo" className="navbar-logo" />
         </a>
         <button
@@ -22,37 +22,37 @@ export default function Header() {
         <div className="navbar-collapse collapse" id="menuMobile">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a href="https://google.com" className="nav-link">
                 e-commerce
               </a>
               <span className="black-square"></span>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a href="https://google.com" className="nav-link">
                 d2c
               </a>
               <span className="black-square"></span>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a href="https://google.com" className="nav-link">
                 transportadoras
               </a>
               <span className="black-square"></span>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a href="https://google.com" className="nav-link">
                 programa de esg
               </a>
               <span className="black-square"></span>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a href="https://google.com" className="nav-link">
                 blog
               </a>
               <span className="black-square"></span>
             </li>
             <li className="nav-item no-display">
-              <a className="nav-link" href="#">
+              <a href="https://google.com" className="nav-link">
                 onde está meu pedido?
               </a>
             </li>

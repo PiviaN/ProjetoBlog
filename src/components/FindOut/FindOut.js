@@ -1,24 +1,8 @@
 import React from "react";
 import "./FindOut.css";
 import dots2 from "../../assets/dots-2.png";
-import { useEffect } from "react";
 
 function FindOut() {
-  const changeSlide = () => {
-    const carouselItemOne = document.querySelector(".carousel-control-next");
-    const carouselItemTwo = document.querySelector(".carousel-item-2");
-    const carouselItemThree = document.querySelector(".carousel-item-3");
-    setInterval(() => {
-      carouselItemOne.addEventListener("click", () => {
-        console.log("one");
-      });
-    }, 2000);
-  };
-
-  useEffect(() => {
-    changeSlide();
-  });
-
   return (
     <>
       <section className="find-out d-flex align-items-center justify-content-center find-out-desktop">

@@ -123,7 +123,10 @@ export default function CardsList() {
                     </p>
                   </div>
                   <div className="d-flex justify-content-end">
-                    <a className="link-info-planning text-right">
+                    <a
+                      href="https://google.com"
+                      className="link-info-planning text-right"
+                    >
                       Entenda &gt;
                     </a>
                   </div>
@@ -158,7 +161,10 @@ export default function CardsList() {
                       </p>
                     </div>
                     <div className="d-flex justify-content-start">
-                      <a className="link-info-planning text-start">
+                      <a
+                        href="https://google.com"
+                        className="link-info-planning text-start"
+                      >
                         Entenda &gt;
                       </a>
                     </div>
@@ -183,7 +189,10 @@ export default function CardsList() {
                       </p>
                     </div>
                     <div className="d-flex justify-content-start">
-                      <a className="link-info-planning text-start">
+                      <a
+                        href="https://google.com"
+                        className="link-info-planning text-start"
+                      >
                         Entenda &gt;
                       </a>
                     </div>
@@ -295,7 +304,12 @@ export default function CardsList() {
                 economia futura de tempo e com certeza de dinheiro.
               </p>
             </div>
-            <a className="link-info-planning text-center mt-2">Entenda &gt;</a>
+            <a
+              href="https://google.com"
+              className="link-info-planning text-center mt-2"
+            >
+              Entenda &gt;
+            </a>
 
             <div className="big-white-circle">
               <div className="d-flex justify-content-center align-items-center circles">

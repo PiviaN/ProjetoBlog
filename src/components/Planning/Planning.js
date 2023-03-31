@@ -1,7 +1,6 @@
 import React from "react";
 import "./Planing.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Planning() {
@@ -34,7 +33,10 @@ export default function Planning() {
                         gestão de vendas.
                       </p>
                     </div>
-                    <a className="link-info-planning link-info-planning-active">
+                    <a
+                      href="https://google.com"
+                      className="link-info-planning link-info-planning-active"
+                    >
                       Entenda &gt;
                     </a>
                   </div>
@@ -53,7 +55,9 @@ export default function Planning() {
                         gestão de vendas.
                       </p>
                     </div>
-                    <a className="link-info-planning">Entenda &gt;</a>
+                    <a href="https://google.com" className="link-info-planning">
+                      Entenda &gt;
+                    </a>
                   </div>
                 </div>
                 <div className="d-flex align-items-center card-vertical">
@@ -70,7 +74,9 @@ export default function Planning() {
                         gestão de vendas.
                       </p>
                     </div>
-                    <a className="link-info-planning">Entenda &gt;</a>
+                    <a href="https://google.com" className="link-info-planning">
+                      Entenda &gt;
+                    </a>
                   </div>
                 </div>
                 <div className="d-flex align-items-center card-vertical">
@@ -87,7 +93,9 @@ export default function Planning() {
                         gestão de vendas.
                       </p>
                     </div>
-                    <a className="link-info-planning">Entenda &gt;</a>
+                    <a href="https://google.com" className="link-info-planning">
+                      Entenda &gt;
+                    </a>
                   </div>
                 </div>
               </div>
@@ -123,7 +131,10 @@ export default function Planning() {
                           Lorem ipsum dolor sit amet.
                         </p>
                       </div>
-                      <a className="link-info-planning link-info-planning-active">
+                      <a
+                        href="https://google.com"
+                        className="link-info-planning link-info-planning-active"
+                      >
                         Acessar &gt;
                       </a>
                     </div>
@@ -134,7 +145,10 @@ export default function Planning() {
                           Lorem ipsum dolor sit amet.
                         </p>
                       </div>
-                      <a className="link-info-planning link-info-planning-active">
+                      <a
+                        href="https://google.com"
+                        className="link-info-planning link-info-planning-active"
+                      >
                         Acessar &gt;
                       </a>
                     </div>
@@ -145,7 +159,10 @@ export default function Planning() {
                           Lorem ipsum dolor sit amet.
                         </p>
                       </div>
-                      <a className="link-info-planning link-info-planning-active">
+                      <a
+                        href="https://google.com"
+                        className="link-info-planning link-info-planning-active"
+                      >
                         Acessar &gt;
                       </a>
                     </div>
@@ -210,7 +227,10 @@ export default function Planning() {
             </p>
           </div>
           <div className="control-link-info-planning">
-            <a className="link-info-planning link-info-planning-active">
+            <a
+              href="https://google.com"
+              className="link-info-planning link-info-planning-active"
+            >
               Entenda &gt;
             </a>
           </div>
@@ -250,7 +270,10 @@ export default function Planning() {
             <div className="control-mini-description">
               <p className="mini-description">Lorem ipsum dolor sit amet.</p>
             </div>
-            <a className="link-info-planning link-info-planning-active">
+            <a
+              href="https://google.com"
+              className="link-info-planning link-info-planning-active"
+            >
               Acessar &gt;
             </a>
           </div>
@@ -259,7 +282,10 @@ export default function Planning() {
             <div className="control-mini-description">
               <p className="mini-description">Lorem ipsum dolor sit amet.</p>
             </div>
-            <a className="link-info-planning link-info-planning-active">
+            <a
+              href="https://google.com"
+              className="link-info-planning link-info-planning-active"
+            >
               Acessar &gt;
             </a>
           </div>
@@ -268,7 +294,10 @@ export default function Planning() {
             <div className="control-mini-description">
               <p className="mini-description">Lorem ipsum dolor sit amet.</p>
             </div>
-            <a className="link-info-planning link-info-planning-active">
+            <a
+              href="https://google.com"
+              className="link-info-planning link-info-planning-active"
+            >
               Acessar &gt;
             </a>
           </div>

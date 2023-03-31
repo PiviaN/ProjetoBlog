@@ -43,7 +43,9 @@ export default function Blog() {
                     as definições acontecem. ue
                   </p>
                 </div>
-                <a className="read-link">Ler completo&gt;</a>
+                <a href="https://google.com" className="read-link">
+                  Ler completo&gt;
+                </a>
               </div>
             </div>
             <div className="small-tecnology-container">
@@ -67,7 +69,9 @@ export default function Blog() {
                   as definições acontecem.
                 </p>
               </div>
-              <a className="read-link">Ler completo&gt;</a>
+              <a href="https://google.com" className="read-link">
+                Ler completo&gt;
+              </a>
             </div>
             <div className="small-tecnology-container">
               <div className="small-tecnology-card">
@@ -90,7 +94,9 @@ export default function Blog() {
                   as definições acontecem.
                 </p>
               </div>
-              <a className="read-link">Ler completo&gt;</a>
+              <a href="https://google.com" className="read-link">
+                Ler completo&gt;
+              </a>
             </div>
             <div className="small-tecnology-container">
               <div className="small-tecnology-card">
@@ -113,7 +119,9 @@ export default function Blog() {
                   as definições acontecem.
                 </p>
               </div>
-              <a className="read-link">Ler completo&gt;</a>
+              <a href="https://google.com" className="read-link">
+                Ler completo&gt;
+              </a>
             </div>
             <div className="small-tecnology-container">
               <div className="small-tecnology-card">
@@ -136,7 +144,9 @@ export default function Blog() {
                   as definições acontecem.
                 </p>
               </div>
-              <a className="read-link">Ler completo&gt;</a>
+              <a href="https://google.com" className="read-link">
+                Ler completo&gt;
+              </a>
             </div>
           </div>
 
@@ -189,7 +199,9 @@ export default function Blog() {
                     as definições acontecem.
                   </p>
                 </div>
-                <a className="read-link">Ler completo&gt;</a>
+                <a href="https://google.com" className="read-link">
+                  Ler completo&gt;
+                </a>
               </div>
             </div>
           </div>
@@ -217,7 +229,9 @@ export default function Blog() {
                   as definições acontecem.
                 </p>
               </div>
-              <a className="read-link">Ler completo&gt;</a>
+              <a href="https://google.com" className="read-link">
+                Ler completo&gt;
+              </a>
             </div>
             <div className="small-tecnology-container">
               <div className="small-tecnology-card">
@@ -241,7 +255,9 @@ export default function Blog() {
                   as definições acontecem.
                 </p>
               </div>
-              <a className="read-link">Ler completo&gt;</a>
+              <a href="https://google.com" className="read-link">
+                Ler completo&gt;
+              </a>
             </div>
             <div className="small-tecnology-container">
               <div className="small-tecnology-card">
@@ -265,7 +281,9 @@ export default function Blog() {
                   as definições acontecem.
                 </p>
               </div>
-              <a className="read-link">Ler completo&gt;</a>
+              <a href="https://google.com" className="read-link">
+                Ler completo&gt;
+              </a>
             </div>
             <div className="small-tecnology-container">
               <div className="small-tecnology-card">
@@ -289,7 +307,9 @@ export default function Blog() {
                   as definições acontecem.
                 </p>
               </div>
-              <a className="read-link">Ler completo&gt;</a>
+              <a href="https://google.com" className="read-link">
+                Ler completo&gt;
+              </a>
             </div>
           </div>
 

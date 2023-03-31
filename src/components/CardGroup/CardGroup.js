@@ -24,7 +24,12 @@ export default function CardGroup() {
                     de vendas.
                   </p>
                 </div>
-                <a className="link-info-planning color-white">Entenda &gt;</a>
+                <a
+                  href="https://google.com"
+                  className="link-info-planning color-white"
+                >
+                  Entenda &gt;
+                </a>
               </div>
             </div>
             <div className="d-flex align-items-center card-horizontal">
@@ -37,7 +42,12 @@ export default function CardGroup() {
                     de vendas.
                   </p>
                 </div>
-                <a className="link-info-planning color-white">Entenda &gt;</a>
+                <a
+                  href="https://google.com"
+                  className="link-info-planning color-white"
+                >
+                  Entenda &gt;
+                </a>
               </div>
             </div>
             <div className="d-flex align-items-center card-horizontal">
@@ -50,7 +60,12 @@ export default function CardGroup() {
                     de vendas.
                   </p>
                 </div>
-                <a className="link-info-planning color-white">Entenda &gt;</a>
+                <a
+                  href="https://google.com"
+                  className="link-info-planning color-white"
+                >
+                  Entenda &gt;
+                </a>
               </div>
             </div>
             <div className="d-flex align-items-center card-horizontal">
@@ -63,7 +78,12 @@ export default function CardGroup() {
                     de vendas.
                   </p>
                 </div>
-                <a className="link-info-planning color-white">Entenda &gt;</a>
+                <a
+                  href="https://google.com"
+                  className="link-info-planning color-white"
+                >
+                  Entenda &gt;
+                </a>
               </div>
             </div>
           </div>
@@ -116,7 +136,12 @@ export default function CardGroup() {
                     de vendas.
                   </p>
                 </div>
-                <a className="link-info-planning color-black">Entenda &gt;</a>
+                <a
+                  href="https://google.com"
+                  className="link-info-planning color-black"
+                >
+                  Entenda &gt;
+                </a>
               </div>
             </div>
             <div className="card-slider-mobile d-flex justify-content-center align-items-center">
@@ -129,7 +154,12 @@ export default function CardGroup() {
                     de vendas.
                   </p>
                 </div>
-                <a className="link-info-planning color-black">Entenda &gt;</a>
+                <a
+                  href="https://google.com"
+                  className="link-info-planning color-black"
+                >
+                  Entenda &gt;
+                </a>
               </div>
             </div>
             <div className="card-slider-mobile d-flex justify-content-center align-items-center">
@@ -142,7 +172,12 @@ export default function CardGroup() {
                     de vendas.
                   </p>
                 </div>
-                <a className="link-info-planning color-black">Entenda &gt;</a>
+                <a
+                  href="https://google.com"
+                  className="link-info-planning color-black"
+                >
+                  Entenda &gt;
+                </a>
               </div>
             </div>
           </div>
