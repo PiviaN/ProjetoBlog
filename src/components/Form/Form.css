@@ -24,6 +24,7 @@
   display: flex;
   align-items: center;
   background-color: #cbcbcb;
+  width: 100%;
 }
 
 .form-input::placeholder {
