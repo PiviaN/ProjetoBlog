@@ -12,7 +12,7 @@ export default function Album() {
       <section className="album album-desktop d-flex">
         <img src={lateralImg} alt="lateral" className="lateral-image" />
         <div className="top-album">
-          <div className="d-flex align-items-center">
+          <div className="d-flex align-items-center control-top-album-texts">
             <div className="control-album-title">
               <h1 className="album-title">Lorem ipsum dolor sit amet.</h1>
             </div>
@@ -31,13 +31,17 @@ export default function Album() {
               numquam et itaque accusamus id quia adipisci.”
             </h2>
           </div>
-          <p className="top-album-subtitle mb-2">Lorem ipsum dolor sit amet.</p>
+
+          <div className="control-top-album-subtitle mb-2">
+            <p className="top-album-subtitle">Lorem ipsum dolor sit amet.</p>
+          </div>
+
           <p className="top-album-description">Lorem ipsum</p>
 
           <div className="d-flex justify-content-center control-selector">
             <img src={blackSelector} alt="selector" />
           </div>
-          <div className="d-flex align-items-center">
+          <div className="d-flex align-items-center control-album-texts">
             <div className="control-album-title">
               <h1 className="album-title">Lorem ipsum dolor sit amet.</h1>
             </div>
@@ -50,7 +54,7 @@ export default function Album() {
             </div>
           </div>
 
-          <div className="d-flex align-items-center album-pictures">
+          <div className="d-flex align-items-center justify-content-between album-pictures">
             <img src={cardAlbum} alt="card" className="card-album"></img>
             <img src={cardAlbum} alt="card" className="card-album"></img>
             <img src={cardAlbum} alt="card" className="card-album"></img>
@@ -66,8 +70,8 @@ export default function Album() {
       </section>
 
       <section className="album album-mobile">
-        <div className="d-flex justify-content-center">
-          <div className="d-flex flex-column">
+        <div className="control-album-info">
+          <div className="d-flex flex-column control-album-info">
             <div className="control-album-title control-album-title-1">
               <h1 className="album-title">Lorem ipsum dolor sit amet.</h1>
             </div>
@@ -80,6 +84,7 @@ export default function Album() {
             </div>
           </div>
         </div>
+
         <div className="d-flex">
           <img
             src={lateralImgMobile}
@@ -122,7 +127,7 @@ export default function Album() {
               </p>
             </div>
 
-            <div className="d-flex align-items-center album-pictures">
+            <div className="d-flex align-items-center justify-content-between album-pictures">
               <img src={cardAlbum} alt="card" className="card-album"></img>
               <img src={cardAlbum} alt="card" className="card-album"></img>
               <img src={cardAlbum} alt="card" className="card-album"></img>

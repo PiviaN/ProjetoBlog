@@ -2,7 +2,6 @@
 .white-circle {
   border-radius: 48px;
   width: 34px;
-  height: 34px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -127,7 +126,7 @@
   }
 
   .control-title-planning {
-    max-width: 69.72vw;
+    width: 274px;
     margin-bottom: 4px;
     text-align: center;
   }
@@ -138,8 +137,8 @@
   }
 
   .control-subtitle-planning {
-    /* max-width: 55.98vw; */
-    min-height: 23px;
+    width: 220px;
+    height: 23px;
     margin-bottom: 39px;
   }
 
@@ -176,7 +175,7 @@
   }
 
   .control-subtitle-info {
-    width: 15.625rem;
+    width: 250px;
     min-height: 41px;
   }
 
@@ -196,7 +195,7 @@
   .control-subtitle-info,
   .control-title-info,
   .control-link-info-planning {
-    width: 15.625rem;
+    width: 250px;
   }
 
   .bottom-line {
@@ -212,8 +211,8 @@
   }
 
   .control-subtitle-emphasis {
-    max-width: 230px;
-    min-height: 68px;
+    width: 230px;
+    height: 68px;
     text-align: center;
   }
 
@@ -225,8 +224,8 @@
   }
 
   .control-description-emphasis {
-    max-width: 322px;
-    min-height: 104px;
+    width: 320px;
+    height: 104px;
     margin-top: 8px;
     text-align: center;
     margin-bottom: 1rem;
@@ -253,8 +252,8 @@
   }
 
   .control-mini-description {
-    max-width: 99px;
-    min-height: 38px;
+    width: 99px;
+    height: 38px;
     margin-bottom: 0.75rem;
   }
 
@@ -284,19 +283,22 @@
   }
 
   .control-title-planning {
-    max-width: 30.26vw;
+    width: 30.26vw;
     min-height: 56px;
     margin-bottom: 8px;
   }
 
   .control-subtitle-planning {
-    max-width: 14.32vw;
+    width: 14.32vw;
     min-height: 28px;
     margin-bottom: 24px;
   }
 
   .card-vertical {
     margin-bottom: 36px;
+    justify-content: space-between;
+    width: 26.88vw;
+    height: 134px;
   }
 
   .title-info {
@@ -306,7 +308,8 @@
   }
 
   .control-subtitle-info {
-    max-width: 13.02vw;
+    width: 13.02vw;
+    min-height: 38px;
   }
 
   .subtitle-info {
@@ -317,10 +320,9 @@
 
   .white-block {
     width: 13.02vw;
-    height: 94px;
+    height: 100%;
     box-shadow: 0px 3px 6px 3px #00000029;
     background-color: #e7e7e7;
-    margin-right: 1rem;
   }
 
   .planning {
@@ -334,15 +336,15 @@
   }
 
   .emphasis-image {
-    width: 100%;
+    width: 40.26vw;
     height: 344px;
     background-color: #f0f0f0;
     margin-top: 1.75rem;
-    margin-left: -7.5%;
+    margin-left: -2vw;
   }
 
   .control-title-emphasis {
-    max-width: 18.13vw;
+    width: 18.13vw;
     min-height: 33px;
     margin-bottom: 8px;
     margin-top: 51px;
@@ -353,7 +355,7 @@
   }
 
   .control-subtitle-emphasis {
-    max-width: 14.32vw;
+    width: 14.32vw;
     min-height: 28px;
     margin-bottom: 5px;
   }
@@ -363,7 +365,7 @@
   }
 
   .control-description-emphasis {
-    max-width: 29.79vw;
+    width: 29.79vw;
     min-height: 62px;
     margin-bottom: 1.813rem;
   }
@@ -373,7 +375,7 @@
   }
 
   .ml-text-emphasis {
-    margin-left: 79px;
+    margin-left: 4.11vw;
   }
 
   .mini-title {
@@ -383,7 +385,7 @@
   }
 
   .control-mini-description {
-    max-width: 5.16vw;
+    width: 5.16vw;
     min-height: 38px;
     margin-bottom: 10px;
   }

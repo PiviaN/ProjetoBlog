@@ -12,12 +12,12 @@
 }
 
 .list-of-cards {
-  flex-wrap: wrap;
+  width: 76.98vw;
 }
 
 .card-ux {
   height: 204px;
-  width: 14.563rem;
+  width: 233px;
   background-image: url(../../../src/assets/card-background.png);
   box-shadow: 0px 0px 3px #00000029;
 }
@@ -28,7 +28,7 @@
   font-size: 1rem;
   line-height: 25px;
   margin-bottom: 8px;
-  width: 8rem;
+  width: 128px;
   text-align: left;
   font-weight: bold;
 }
@@ -44,7 +44,7 @@
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 20px;
-  width: 10.875rem;
+  width: 174px;
   height: 39px;
   border: none;
   margin-top: -1.5rem;
@@ -129,7 +129,7 @@
   }
 
   .control-double-triangle-subtitle {
-    max-width: 322px;
+    width: 81.93vw;
     min-height: 104px;
   }
 
@@ -174,8 +174,8 @@
     position: absolute;
     top: 40px;
     transform: matrix(-1, 0, 0, -1, 0, 0);
-    max-width: 178px;
-    min-height: 68px;
+    width: 178px;
+    height: 68px;
   }
 
   .text-middle-absolute {
@@ -204,12 +204,12 @@
   }
 
   .control-card-ux {
-    margin-right: 1rem;
+    margin-right: calc(0.416667vw * 2);
     margin-bottom: 1rem;
   }
 
   .control-card-ux-subtitle {
-    width: 8rem;
+    width: 128px;
     min-height: 38px;
   }
 
@@ -254,16 +254,21 @@
   }
 
   .big-card-image {
-    height: auto;
-    background-image: url(../../assets/big-card-background.png);
-    background-size: 100% 100%;
+    min-height: 385px;
+    background-color: #eeecec;
+    width: 22.92vw !important;
   }
 
   .big-card-button {
     background: #ffffff 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000029;
     border-radius: 20px;
-    height: 39px;
+    width: 17.19vw;
+    min-height: 39px;
+    display: flex;
+    margin-top: -2vh;
+    justify-content: center;
+    align-items: center;
     border: none;
   }
 
@@ -275,11 +280,11 @@
   }
 
   .info-left {
-    margin-right: 4.16%;
+    margin-right: 7.5vw;
   }
 
   .info-right {
-    margin-left: 4.16;
+    margin-left: 7.5vw;
   }
 
   .big-card-button:hover {

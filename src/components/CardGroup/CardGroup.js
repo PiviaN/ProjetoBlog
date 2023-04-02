@@ -13,11 +13,13 @@ export default function CardGroup() {
           <h1 className="cards-slider-title">Lorem ipsum dolor sit amet.</h1>
           <p className="cards-slider-subtitle">Lorem ipsum dolor sit amet.</p>
 
-          <div className="d-flex cards-horizontal">
+          <div className="d-flex cards-horizontal justify-content-between">
             <div className="d-flex align-items-center card-horizontal">
               <div className="white-block"></div>
               <div className="info">
-                <h3 className="title-info color-white">Planejamento</h3>
+                <h3 className="title-info color-white text-uppercase">
+                  ux tal
+                </h3>
                 <div className="control-subtitle-info-2">
                   <p className="subtitle-info color-white">
                     Inteligência para gestão de vendas. Inteligência para gestão
@@ -35,7 +37,9 @@ export default function CardGroup() {
             <div className="d-flex align-items-center card-horizontal">
               <div className="white-block"></div>
               <div className="info">
-                <h3 className="title-info color-white">Planejamento</h3>
+                <h3 className="title-info color-white text-uppercase">
+                  ux tal
+                </h3>
                 <div className="control-subtitle-info-2">
                   <p className="subtitle-info color-white">
                     Inteligência para gestão de vendas. Inteligência para gestão
@@ -53,7 +57,9 @@ export default function CardGroup() {
             <div className="d-flex align-items-center card-horizontal">
               <div className="white-block"></div>
               <div className="info">
-                <h3 className="title-info color-white">Planejamento</h3>
+                <h3 className="title-info color-white text-uppercase">
+                  ux tal
+                </h3>
                 <div className="control-subtitle-info-2">
                   <p className="subtitle-info color-white">
                     Inteligência para gestão de vendas. Inteligência para gestão
@@ -71,7 +77,9 @@ export default function CardGroup() {
             <div className="d-flex align-items-center card-horizontal">
               <div className="white-block"></div>
               <div className="info">
-                <h3 className="title-info color-white">Planejamento</h3>
+                <h3 className="title-info color-white text-uppercase">
+                  ux tal
+                </h3>
                 <div className="control-subtitle-info-2">
                   <p className="subtitle-info color-white">
                     Inteligência para gestão de vendas. Inteligência para gestão

@@ -7,7 +7,7 @@ export default function CardsList() {
     <>
       <section className="cards-list desktop-layout">
         <div className="container">
-          <div className="row">
+          <div className="d-flex flex-column">
             <h2 className="lists-title">Lorem ipsum dolor sit amet.</h2>
             <p className="lists-subtitle">Lorem ipsum dolor sit amet.</p>
           </div>
@@ -101,8 +101,8 @@ export default function CardsList() {
               <p className="big-card-subtitle">Lorem ipsum dolor sit amet.</p>
             </div>
 
-            <div className="row">
-              <div className="col-3 d-flex align-items-center info-left">
+            <div className="d-flex">
+              <div className="d-flex align-items-center info-left">
                 <div className="d-flex flex-column">
                   <div className="d-flex justify-content-end">
                     <img
@@ -132,14 +132,15 @@ export default function CardsList() {
                   </div>
                 </div>
               </div>
-              <div className="col-5 d-flex flex-column-reverse align-items-center big-card-image">
+              <div className="d-flex flex-column align-items-center">
+                <div className="big-card-image"></div>
                 <button className="big-card-button">
                   <p className="big-card-button-p">
                     Entenda sobre o programa completo
                   </p>
                 </button>
               </div>
-              <div className="col-3 d-flex align-items-center info-right">
+              <div className="d-flex align-items-center info-right">
                 <div className="d-flex flex-column">
                   <div className="d-flex flex-column mb-5">
                     <div className="d-flex justify-content-start">

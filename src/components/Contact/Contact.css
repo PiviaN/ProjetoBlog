@@ -7,11 +7,13 @@
 .contact-title {
   color: #ffffff;
   margin-bottom: 8px;
+  font-weight: bold;
 }
 
 .contact-subtitle {
   color: #ffffff;
   margin-bottom: 1rem;
+  font-weight: 300;
 }
 
 .button-contact {
@@ -22,7 +24,7 @@
   justify-content: center;
   align-items: center;
   height: 39px;
-  width: 15.188rem;
+  width: 243px;
   border: none;
 }
 
@@ -71,6 +73,7 @@
   .contact-title {
     font-size: 3rem;
     line-height: 72px;
+    font-weight: bold;
   }
 
   .contact-subtitle {

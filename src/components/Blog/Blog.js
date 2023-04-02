@@ -168,20 +168,22 @@ export default function Blog() {
               <FontAwesomeIcon icon={faArrowRight} size="2xl" color="#fff" />
             </div>
           </div>
-          <p className="blog-subtitle text-center">
-            Lorem ipsum dolor sit amet.
-          </p>
-          <div className="d-flex align-items-center justify-content-center search-area">
-            <FontAwesomeIcon
-              icon={faSearch}
-              size="sm"
-              className="search-icon"
-            />
-            <input
-              type="text"
-              placeholder="Pesquise o assunto de sua preferência"
-              className="search-input"
-            ></input>
+          <div className="d-flex justify-content-center">
+            <div className="flex-column">
+              <p className="blog-subtitle">Lorem ipsum dolor sit amet.</p>
+              <div className="d-flex align-items-center search-area">
+                <FontAwesomeIcon
+                  icon={faSearch}
+                  size="sm"
+                  className="search-icon"
+                />
+                <input
+                  type="text"
+                  placeholder="Pesquise o assunto de sua preferência"
+                  className="search-input"
+                ></input>
+              </div>
+            </div>
           </div>
 
           <div className="big-tecnology-card">

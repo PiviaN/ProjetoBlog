@@ -84,12 +84,12 @@
   }
 
   .control-title {
-    max-width: 320px;
+    width: 320px;
     min-height: 176px;
   }
 
   .control-description {
-    max-width: 330px;
+    width: 320px;
     min-height: 177px;
   }
 
@@ -117,12 +117,12 @@
   }
 
   .control-title {
-    max-width: 37.71vw;
-    min-height: 191px;
+    width: 724px;
+    height: 191px;
   }
 
   .control-description {
-    max-width: 44.01vw;
-    min-height: 75px;
+    width: 845px;
+    height: 75px;
   }
 }

@@ -8,7 +8,7 @@ export default function Planning() {
     <>
       <section className="planning desktop-layout">
         <div className="container">
-          <div className="row custom-row">
+          <div className="d-flex custom-row">
             <div className="col-6">
               <div className="control-title-planning">
                 <h1 className="title-planning">Lorem ipsum dolor sit amet.</h1>
@@ -20,7 +20,7 @@ export default function Planning() {
               </div>
               <div className="d-flex flex-column">
                 <div className="d-flex align-items-center card-vertical">
-                  <div className="white-block col-lg-6">
+                  <div className="white-block">
                     <div className="black-circle black-circle-margin">
                       <span className="white-number">01</span>
                     </div>
@@ -42,12 +42,12 @@ export default function Planning() {
                   </div>
                 </div>
                 <div className="d-flex align-items-center card-vertical">
-                  <div className="white-block col-lg-6">
+                  <div className="white-block">
                     <div className="black-circle black-circle-margin">
                       <span className="white-number">02</span>
                     </div>
                   </div>
-                  <div className="info col-6">
+                  <div className="info">
                     <h3 className="title-info">Planejamento</h3>
                     <div className="control-subtitle-info">
                       <p className="subtitle-info">
@@ -61,12 +61,12 @@ export default function Planning() {
                   </div>
                 </div>
                 <div className="d-flex align-items-center card-vertical">
-                  <div className="white-block col-lg-6">
+                  <div className="white-block">
                     <div className="black-circle black-circle-margin">
                       <span className="white-number">03</span>
                     </div>
                   </div>
-                  <div className="info col-6">
+                  <div className="info">
                     <h3 className="title-info">Planejamento</h3>
                     <div className="control-subtitle-info">
                       <p className="subtitle-info">
@@ -80,12 +80,12 @@ export default function Planning() {
                   </div>
                 </div>
                 <div className="d-flex align-items-center card-vertical">
-                  <div className="white-block col-lg-6">
+                  <div className="white-block">
                     <div className="black-circle black-circle-margin">
                       <span className="white-number">04</span>
                     </div>
                   </div>
-                  <div className="info col-6">
+                  <div className="info">
                     <h3 className="title-info">Planejamento</h3>
                     <div className="control-subtitle-info">
                       <p className="subtitle-info">
@@ -100,7 +100,7 @@ export default function Planning() {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="">
               <div className="d-flex flex-column">
                 <div className="emphasis-image"></div>
                 <div className="ml-text-emphasis">
