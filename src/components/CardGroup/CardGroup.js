@@ -10,101 +10,107 @@ export default function CardGroup() {
     <>
       <section className="card-group-desktop d-flex">
         <div className="pt-97">
-          <h1 className="cards-slider-title">Lorem ipsum dolor sit amet.</h1>
-          <p className="cards-slider-subtitle">Lorem ipsum dolor sit amet.</p>
+          <div className="d-flex flex-column">
+            <h1 className="cards-slider-title">Lorem ipsum dolor sit amet.</h1>
+            <p className="cards-slider-subtitle">Lorem ipsum dolor sit amet.</p>
 
-          <div className="d-flex cards-horizontal justify-content-between">
-            <div className="d-flex align-items-center card-horizontal">
-              <div className="white-block"></div>
-              <div className="info">
-                <h3 className="title-info color-white text-uppercase">
-                  ux tal
-                </h3>
-                <div className="control-subtitle-info-2">
-                  <p className="subtitle-info color-white">
-                    Inteligência para gestão de vendas. Inteligência para gestão
-                    de vendas.
-                  </p>
+            <div className="d-flex cards-horizontal justify-content-between">
+              <div className="d-flex align-items-center card-horizontal">
+                <div className="white-block"></div>
+                <div className="info">
+                  <h3 className="title-info color-white text-uppercase">
+                    ux tal
+                  </h3>
+                  <div className="control-subtitle-info-2">
+                    <p className="subtitle-info color-white">
+                      Inteligência para gestão de vendas. Inteligência para
+                      gestão de vendas.
+                    </p>
+                  </div>
+                  <a
+                    href="https://google.com"
+                    className="link-info-planning color-white"
+                  >
+                    Entenda &gt;
+                  </a>
                 </div>
-                <a
-                  href="https://google.com"
-                  className="link-info-planning color-white"
-                >
-                  Entenda &gt;
-                </a>
+              </div>
+              <div className="d-flex align-items-center card-horizontal">
+                <div className="white-block"></div>
+                <div className="info">
+                  <h3 className="title-info color-white text-uppercase">
+                    ux tal
+                  </h3>
+                  <div className="control-subtitle-info-2">
+                    <p className="subtitle-info color-white">
+                      Inteligência para gestão de vendas. Inteligência para
+                      gestão de vendas.
+                    </p>
+                  </div>
+                  <a
+                    href="https://google.com"
+                    className="link-info-planning color-white"
+                  >
+                    Entenda &gt;
+                  </a>
+                </div>
+              </div>
+              <div className="d-flex align-items-center card-horizontal">
+                <div className="white-block"></div>
+                <div className="info">
+                  <h3 className="title-info color-white text-uppercase">
+                    ux tal
+                  </h3>
+                  <div className="control-subtitle-info-2">
+                    <p className="subtitle-info color-white">
+                      Inteligência para gestão de vendas. Inteligência para
+                      gestão de vendas.
+                    </p>
+                  </div>
+                  <a
+                    href="https://google.com"
+                    className="link-info-planning color-white"
+                  >
+                    Entenda &gt;
+                  </a>
+                </div>
+              </div>
+              <div className="d-flex align-items-center card-horizontal">
+                <div className="white-block"></div>
+                <div className="info">
+                  <h3 className="title-info color-white text-uppercase">
+                    ux tal
+                  </h3>
+                  <div className="control-subtitle-info-2">
+                    <p className="subtitle-info color-white">
+                      Inteligência para gestão de vendas. Inteligência para
+                      gestão de vendas.
+                    </p>
+                  </div>
+                  <a
+                    href="https://google.com"
+                    className="link-info-planning color-white"
+                  >
+                    Entenda &gt;
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="d-flex align-items-center card-horizontal">
-              <div className="white-block"></div>
-              <div className="info">
-                <h3 className="title-info color-white text-uppercase">
-                  ux tal
-                </h3>
-                <div className="control-subtitle-info-2">
-                  <p className="subtitle-info color-white">
-                    Inteligência para gestão de vendas. Inteligência para gestão
-                    de vendas.
-                  </p>
-                </div>
-                <a
-                  href="https://google.com"
-                  className="link-info-planning color-white"
-                >
-                  Entenda &gt;
-                </a>
-              </div>
-            </div>
-            <div className="d-flex align-items-center card-horizontal">
-              <div className="white-block"></div>
-              <div className="info">
-                <h3 className="title-info color-white text-uppercase">
-                  ux tal
-                </h3>
-                <div className="control-subtitle-info-2">
-                  <p className="subtitle-info color-white">
-                    Inteligência para gestão de vendas. Inteligência para gestão
-                    de vendas.
-                  </p>
-                </div>
-                <a
-                  href="https://google.com"
-                  className="link-info-planning color-white"
-                >
-                  Entenda &gt;
-                </a>
-              </div>
-            </div>
-            <div className="d-flex align-items-center card-horizontal">
-              <div className="white-block"></div>
-              <div className="info">
-                <h3 className="title-info color-white text-uppercase">
-                  ux tal
-                </h3>
-                <div className="control-subtitle-info-2">
-                  <p className="subtitle-info color-white">
-                    Inteligência para gestão de vendas. Inteligência para gestão
-                    de vendas.
-                  </p>
-                </div>
-                <a
-                  href="https://google.com"
-                  className="link-info-planning color-white"
-                >
-                  Entenda &gt;
-                </a>
-              </div>
-            </div>
-          </div>
 
-          <div className="d-flex justify-content-end buttons-slider">
-            <div className="d-flex align-items-center">
-              <button className="button-counter">
-                <FontAwesomeIcon icon={faArrowLeft} size="2xl" color="#fff" />
-              </button>
-              <p className="counter">2/10</p>
-              <button className="button-counter">
-                <FontAwesomeIcon icon={faArrowRight} size="2xl" color="#fff" />
-              </button>
+            <div className="d-flex justify-content-end buttons-slider">
+              <div className="d-flex align-items-center">
+                <button className="button-counter">
+                  <FontAwesomeIcon icon={faArrowLeft} size="2xl" color="#fff" />
+                </button>
+                <p className="counter">2/10</p>
+                <button className="button-counter">
+                  <FontAwesomeIcon
+                    icon={faArrowRight}
+                    size="2xl"
+                    color="#fff"
+                  />
+                </button>
+              </div>
             </div>
           </div>
         </div>
