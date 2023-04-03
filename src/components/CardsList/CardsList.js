@@ -208,7 +208,7 @@ export default function CardsList() {
       <section className="cards-list-mobile mobile-layout">
         <div className="d-flex align-items-center cards-stretched">
           <div className="d-flex flex-column align-items-center control-card-ux">
-            <div className="card-ux d-flex justify-content-center align-items-center flex-column">
+            <div className="card-ux card-ux-mobile d-flex justify-content-center align-items-center flex-column">
               <p className="card-ux-title">ux commerce</p>
               <div className="control-card-ux-subtitle">
                 <p className="card-ux-subtitle">
