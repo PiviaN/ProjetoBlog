@@ -108,6 +108,13 @@
     line-height: 21px;
     font-weight: 300;
   }
+
+  .white-block-cardgroup {
+    box-shadow: 0px 3px 6px 3px #00000029;
+    background-color: #e7e7e7;
+    height: 94px;
+    width: 13.02vw;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -150,6 +157,8 @@
     margin-right: 1rem;
     height: 284px;
     margin-top: 24px;
+    padding-left: 35px;
+    padding-right: 108px;
   }
 
   .white-block-mobile {
@@ -171,7 +180,7 @@
 
   .control-card-slider-mobile-description {
     width: 250px;
-    height: 41px;
+    min-height: 41px;
     margin-bottom: 8px;
   }
 }

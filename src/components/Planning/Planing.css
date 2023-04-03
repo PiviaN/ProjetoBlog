@@ -99,7 +99,7 @@
 }
 
 .mr-mini {
-  margin-right: 2.938rem;
+  margin-right: 47px;
   margin-bottom: 2rem;
 }
 
@@ -297,7 +297,7 @@
   .card-vertical {
     margin-bottom: 36px;
     justify-content: space-between;
-    width: 26.88vw;
+    width: 516px;
     height: 134px;
   }
 
@@ -308,8 +308,8 @@
   }
 
   .control-subtitle-info {
-    width: 13.02vw;
-    min-height: 38px;
+    width: 250px;
+    height: 38px;
   }
 
   .subtitle-info {
@@ -319,7 +319,7 @@
   }
 
   .white-block {
-    width: 13.02vw;
+    width: 250px;
     height: 100%;
     box-shadow: 0px 3px 6px 3px #00000029;
     background-color: #e7e7e7;
@@ -344,8 +344,8 @@
   }
 
   .control-title-emphasis {
-    width: 18.13vw;
-    min-height: 33px;
+    width: 348px;
+    height: 33px;
     margin-bottom: 8px;
     margin-top: 51px;
   }
@@ -355,8 +355,8 @@
   }
 
   .control-subtitle-emphasis {
-    width: 14.32vw;
-    min-height: 28px;
+    width: 275px;
+    height: 28px;
     margin-bottom: 5px;
   }
 
@@ -365,8 +365,8 @@
   }
 
   .control-description-emphasis {
-    width: 29.79vw;
-    min-height: 62px;
+    width: 551px;
+    height: 62px;
     margin-bottom: 1.813rem;
   }
 
@@ -385,8 +385,8 @@
   }
 
   .control-mini-description {
-    width: 5.16vw;
-    min-height: 38px;
+    width: 99px;
+    height: 38px;
     margin-bottom: 10px;
   }
 

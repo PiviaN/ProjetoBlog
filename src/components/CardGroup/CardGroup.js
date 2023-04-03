@@ -16,7 +16,7 @@ export default function CardGroup() {
 
             <div className="d-flex cards-horizontal justify-content-between">
               <div className="d-flex align-items-center card-horizontal">
-                <div className="white-block"></div>
+                <div className="white-block-cardgroup"></div>
                 <div className="info">
                   <h3 className="title-info color-white text-uppercase">
                     ux tal
@@ -36,7 +36,7 @@ export default function CardGroup() {
                 </div>
               </div>
               <div className="d-flex align-items-center card-horizontal">
-                <div className="white-block"></div>
+                <div className="white-block-cardgroup"></div>
                 <div className="info">
                   <h3 className="title-info color-white text-uppercase">
                     ux tal
@@ -56,7 +56,7 @@ export default function CardGroup() {
                 </div>
               </div>
               <div className="d-flex align-items-center card-horizontal">
-                <div className="white-block"></div>
+                <div className="white-block-cardgroup"></div>
                 <div className="info">
                   <h3 className="title-info color-white text-uppercase">
                     ux tal
@@ -76,7 +76,7 @@ export default function CardGroup() {
                 </div>
               </div>
               <div className="d-flex align-items-center card-horizontal">
-                <div className="white-block"></div>
+                <div className="white-block-cardgroup"></div>
                 <div className="info">
                   <h3 className="title-info color-white text-uppercase">
                     ux tal
@@ -140,7 +140,7 @@ export default function CardGroup() {
 
         <div className="slider-mobile">
           <div className="d-flex align-items-center">
-            <div className="card-slider-mobile d-flex justify-content-center align-items-center">
+            <div className="card-slider-mobile d-flex align-items-center">
               <div className="d-flex flex-column">
                 <div className="white-block-mobile"></div>
                 <h3 className="card-slider-mobile-title">ux tal</h3>
@@ -158,7 +158,7 @@ export default function CardGroup() {
                 </a>
               </div>
             </div>
-            <div className="card-slider-mobile d-flex justify-content-center align-items-center">
+            <div className="card-slider-mobile d-flex align-items-center">
               <div className="d-flex flex-column">
                 <div className="white-block-mobile"></div>
                 <h3 className="card-slider-mobile-title">ux tal</h3>
@@ -176,7 +176,7 @@ export default function CardGroup() {
                 </a>
               </div>
             </div>
-            <div className="card-slider-mobile d-flex justify-content-center align-items-center">
+            <div className="card-slider-mobile d-flex align-items-center">
               <div className="d-flex flex-column">
                 <div className="white-block-mobile"></div>
                 <h3 className="card-slider-mobile-title">ux tal</h3>

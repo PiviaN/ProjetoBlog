@@ -27,25 +27,27 @@ export default function Blog() {
           </div>
 
           <div className="d-flex align-items-center tecnology-cards">
-            <div className="big-tecnology-card">
-              <div className="d-flex flex-column">
-                <div className="control-tecnology-big-card-button d-flex justify-content-end">
-                  <button type="button" className="tecnology-button">
-                    <p className="tecnology-button-p">tecnologia</p>
-                  </button>
+            <div className="d-flex flex-column big-tecnology-card">
+              <div className="control-tecnology-big-card-button d-flex justify-content-end">
+                <button type="button" className="tecnology-button">
+                  <p className="tecnology-button-p">tecnologia</p>
+                </button>
+              </div>
+              <div className="d-flex justify-content-center control-texts-big-tec">
+                <div className="d-flex flex-column">
+                  <div className="control-big-title">
+                    <h2 className="big-title">Lorem ipsum dolor sit amet.</h2>
+                  </div>
+                  <div className="control-big-description">
+                    <p className="big-description">
+                      É a primeira etapa e talvez uma das mais importantes. É
+                      onde as definições acontecem.
+                    </p>
+                  </div>
+                  <a href="https://google.com" className="read-link">
+                    Ler completo&gt;
+                  </a>
                 </div>
-                <div className="control-big-title">
-                  <h2 className="big-title">Lorem ipsum dolor sit amet.</h2>
-                </div>
-                <div className="control-big-description">
-                  <p className="big-description">
-                    É a primeira etapa e talvez uma das mais importantes. É onde
-                    as definições acontecem.
-                  </p>
-                </div>
-                <a href="https://google.com" className="read-link">
-                  Ler completo&gt;
-                </a>
               </div>
             </div>
             <div className="small-tecnology-container">
@@ -160,28 +162,34 @@ export default function Blog() {
 
       <section className="blog-mobile">
         <div className="d-flex flex-column">
-          <div className="d-flex overflow-x-hidden justify-content-center">
-            <div className="control-blog-title">
-              <h1 className="blog-title">Lorem ipsum dolor sit amet.</h1>
-            </div>
-            <div className="big-circle-arrow-mobile hover-circle">
-              <FontAwesomeIcon icon={faArrowRight} size="2xl" color="#fff" />
-            </div>
-          </div>
-          <div className="d-flex justify-content-center">
-            <div className="flex-column">
-              <p className="blog-subtitle">Lorem ipsum dolor sit amet.</p>
-              <div className="d-flex align-items-center search-area">
-                <FontAwesomeIcon
-                  icon={faSearch}
-                  size="sm"
-                  className="search-icon"
-                />
-                <input
-                  type="text"
-                  placeholder="Pesquise o assunto de sua preferência"
-                  className="search-input"
-                ></input>
+          <div className="d-flex justify-content-center position-relative overflow-x-hidden">
+            <div className="d-flex flex-column">
+              <div className="d-flex">
+                <div className="control-blog-title">
+                  <h1 className="blog-title">Lorem ipsum dolor sit amet.</h1>
+                </div>
+                <div className="big-circle-arrow-mobile hover-circle">
+                  <FontAwesomeIcon
+                    icon={faArrowRight}
+                    size="2xl"
+                    color="#fff"
+                  />
+                </div>
+              </div>
+              <div className="flex-column">
+                <p className="blog-subtitle">Lorem ipsum dolor sit amet.</p>
+                <div className="d-flex align-items-center search-area">
+                  <FontAwesomeIcon
+                    icon={faSearch}
+                    size="sm"
+                    className="search-icon"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Pesquise o assunto de sua preferência"
+                    className="search-input"
+                  ></input>
+                </div>
               </div>
             </div>
           </div>
