@@ -214,7 +214,7 @@
 
   .control-tecnology-button {
     padding-top: 15px;
-    padding-right: 18px;
+    padding-right: 11px;
   }
 
   .control-small-title {
@@ -227,6 +227,11 @@
 
   .control-small-description {
     margin-bottom: 8px;
+  }
+
+  .control-tecnology-big-card-button {
+    margin-top: 15px;
+    margin-right: 18px;
   }
 }
 

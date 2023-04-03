@@ -27,9 +27,9 @@ export default function Blog() {
           </div>
 
           <div className="d-flex align-items-center tecnology-cards">
-            <div className="big-tecnology-card d-flex align-items-center justify-content-center">
+            <div className="big-tecnology-card">
               <div className="d-flex flex-column">
-                <div className="d-flex justify-content-end">
+                <div className="control-tecnology-big-card-button d-flex justify-content-end">
                   <button type="button" className="tecnology-button">
                     <p className="tecnology-button-p">tecnologia</p>
                   </button>
