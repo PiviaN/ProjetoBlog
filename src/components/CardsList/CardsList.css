@@ -12,7 +12,7 @@
 }
 
 .list-of-cards {
-  width: 76.98vw;
+  width: 75vw;
 }
 
 .card-ux {
@@ -309,5 +309,9 @@
 
   .saiba-mais {
     width: 9.06vw;
+  }
+
+  .control-cardslist-show {
+    width: 75vw;
   }
 }

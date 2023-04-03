@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <>
       <section className="contact-desktop d-flex align-items-center">
-        <div className="container">
+        <div className="container-custom-desktop">
           <h1 className="contact-title">Lorem ipsum dolor sit amet.</h1>
           <p className="contact-subtitle">Lorem ipsum dolor sit amet.</p>
           <button className="button-contact">

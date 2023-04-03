@@ -7,7 +7,7 @@ export default function Planning() {
   return (
     <>
       <section className="planning desktop-layout">
-        <div className="container">
+        <div className="container-custom-planning">
           <div className="d-flex custom-row">
             <div className="col-6">
               <div className="control-title-planning">

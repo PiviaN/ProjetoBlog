@@ -80,6 +80,8 @@
   }
 
   .control-top-album-title {
+    width: 46.38vw;
+    min-height: 128px;
     text-align: left;
     margin-bottom: 8px;
   }

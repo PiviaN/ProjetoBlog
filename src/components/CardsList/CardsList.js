@@ -6,7 +6,7 @@ export default function CardsList() {
   return (
     <>
       <section className="cards-list desktop-layout">
-        <div className="container">
+        <div className="container-custom-desktop">
           <div className="d-flex flex-column">
             <h2 className="lists-title">Lorem ipsum dolor sit amet.</h2>
             <p className="lists-subtitle">Lorem ipsum dolor sit amet.</p>
@@ -95,13 +95,13 @@ export default function CardsList() {
         </div>
 
         <div className="big-card">
-          <div className="container">
+          <div className="container-custom-desktop">
             <div className="big-card-texts">
               <h1 className="big-card-title">Lorem ipsum dolor sit amet.</h1>
               <p className="big-card-subtitle">Lorem ipsum dolor sit amet.</p>
             </div>
 
-            <div className="d-flex">
+            <div className="d-flex control-cardslist-show">
               <div className="d-flex align-items-center info-left">
                 <div className="d-flex flex-column">
                   <div className="d-flex justify-content-end">

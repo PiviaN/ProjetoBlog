@@ -36,8 +36,8 @@
 
   .pt-97 {
     width: 80%;
+    padding-left: 12.5vw;
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: #6c6868;
   }

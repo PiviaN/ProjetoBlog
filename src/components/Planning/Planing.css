@@ -266,6 +266,11 @@
 @media (min-width: 1200px) {
   .planning {
     background: linear-gradient(90deg, #cbcbcb 50%, #fff 50%);
+    width: 75vw;
+  }
+
+  .container-custom-planning {
+    padding-left: 12.5vw;
   }
 
   .custom-row {
