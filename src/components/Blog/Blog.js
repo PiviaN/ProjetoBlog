@@ -8,7 +8,7 @@ export default function Blog() {
   return (
     <>
       <section className="blog-desktop">
-        <div className="container">
+        <div className="container-custom-desktop">
           <h1 className="blog-title">Lorem ipsum dolor sit amet.</h1>
           <div className="d-flex align-items-center justify-content-between text-and-input">
             <p className="blog-subtitle">Lorem ipsum dolor sit amet.</p>
@@ -26,7 +26,7 @@ export default function Blog() {
             </div>
           </div>
 
-          <div className="d-flex align-items-center tecnology-cards">
+          <div className="d-flex tecnology-cards">
             <div className="d-flex flex-column big-tecnology-card">
               <div className="control-tecnology-big-card-button d-flex justify-content-end">
                 <button type="button" className="tecnology-button">
@@ -152,7 +152,7 @@ export default function Blog() {
             </div>
           </div>
 
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center access-blog-control">
             <button className="access-blog">
               <p className="access-blog-p">acessar blog completo</p>
             </button>

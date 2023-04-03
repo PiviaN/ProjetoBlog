@@ -51,7 +51,7 @@
 }
 
 .big-tecnology-card {
-  height: 364px;
+  /* height: 100%; */
   background-color: rgb(241, 241, 241);
 }
 
@@ -116,8 +116,9 @@
 
 .small-tecnology-container {
   min-height: 364px;
+
   width: 234px;
-  margin-left: 16px;
+  margin-left: 0.833333vw;
 }
 
 .small-tecnology-card {
@@ -220,8 +221,8 @@
   .control-small-title {
     margin-left: 3px;
     margin-right: 2px;
-    width: 229px;
-    height: 23px;
+    width: 11.93vw;
+    min-height: 23px;
     margin-bottom: 8px;
   }
 
@@ -237,6 +238,23 @@
   .control-texts-big-tec {
     /* height: 298px; */
     padding-bottom: 70px;
+  }
+
+  .container-custom-desktop {
+    padding-left: 12.5vw;
+    width: 75vw;
+  }
+
+  .access-blog-control {
+    width: 75vw;
+  }
+
+  .control-small-description {
+    width: 11.82vw !important;
+  }
+
+  .small-tecnology-container {
+    width: 12.19vw !important;
   }
 }
 
@@ -300,6 +318,7 @@
   }
 
   .big-tecnology-card {
+    width: 364px;
     width: 100%;
     margin-bottom: 16px;
   }

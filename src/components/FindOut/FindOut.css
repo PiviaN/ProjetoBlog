@@ -76,7 +76,7 @@
 
   .title {
     font-size: 2.5rem;
-    line-height: 60px;
+    line-height: 1.25;
   }
 
   .description {
@@ -109,7 +109,7 @@
 
   .title {
     font-size: 66px;
-    line-height: 99px;
+    line-height: 1.33;
   }
 
   .description {
