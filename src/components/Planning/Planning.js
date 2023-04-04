@@ -6,9 +6,9 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 export default function Planning() {
   return (
     <>
-      <section className="planning desktop-layout container-custom-planning">
-        <div className="d-flex custom-row">
-          <div className="col-6">
+      <section className="planning desktop-layout">
+        <div className="d-flex custom-row container-custom-desktop">
+          <div className="left-side">
             <div className="control-title-planning">
               <h1 className="title-planning">Lorem ipsum dolor sit amet.</h1>
             </div>
@@ -97,7 +97,7 @@ export default function Planning() {
               </div>
             </div>
           </div>
-          <div className="">
+          <div className="right-side">
             <div className="d-flex flex-column">
               <div className="emphasis-image"></div>
               <div className="ml-text-emphasis">

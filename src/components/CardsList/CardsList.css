@@ -11,10 +11,6 @@
   font-weight: 300;
 }
 
-.list-of-cards {
-  width: 75vw;
-}
-
 .card-ux {
   height: 204px;
   flex-wrap: wrap;
@@ -193,6 +189,9 @@
 }
 
 @media (min-width: 1200px) {
+  .desktop-layout {
+  }
+
   .cards-list {
     margin-top: 96px;
     margin-bottom: 103px;
@@ -211,12 +210,11 @@
   }
 
   .control-card-ux {
-    margin-right: calc(0.416667vw * 2);
     margin-bottom: 1rem;
   }
 
   .control-card-ux-subtitle {
-    width: 128px;
+    width: 130px;
     min-height: 38px;
   }
 
@@ -309,9 +307,5 @@
 
   .saiba-mais {
     width: 9.06vw;
-  }
-
-  .control-cardslist-show {
-    width: 75vw;
   }
 }

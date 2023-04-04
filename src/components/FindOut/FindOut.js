@@ -5,10 +5,10 @@ import dots2 from "../../assets/dots-2.png";
 function FindOut() {
   return (
     <>
-      <section className="find-out d-flex align-items-center container-custom-desktop">
+      <section className="find-out d-flex align-items-center ">
         <div
           id="carouselExampleAutoPlaying"
-          className="carousel slide no-container-mobile"
+          className="carousel container-custom-desktop slide no-container-mobile"
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">

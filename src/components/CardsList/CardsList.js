@@ -12,7 +12,7 @@ export default function CardsList() {
             <p className="lists-subtitle">Lorem ipsum dolor sit amet.</p>
           </div>
 
-          <div className="d-flex list-of-cards">
+          <div className="d-flex list-of-cards justify-content-between">
             <div className="d-flex flex-column align-items-center control-card-ux">
               <div className="card-ux d-flex justify-content-center align-items-center flex-column">
                 <p className="card-ux-title">ux commerce</p>

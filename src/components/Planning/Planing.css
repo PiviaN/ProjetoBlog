@@ -266,11 +266,6 @@
 @media (min-width: 1200px) {
   .planning {
     background: linear-gradient(90deg, #cbcbcb 62%, #fff 000%);
-    width: 75vw;
-  }
-
-  .container-custom-planning {
-    padding-left: 12.5vw;
   }
 
   .custom-row {
@@ -345,7 +340,6 @@
     height: 344px;
     background-color: #f0f0f0;
     margin-top: 1.75rem;
-    margin-left: -2vw;
   }
 
   .control-title-emphasis {
@@ -380,7 +374,7 @@
   }
 
   .ml-text-emphasis {
-    margin-left: 4.11vw;
+    width: 40.26vw;
   }
 
   .mini-title {
@@ -390,7 +384,7 @@
   }
 
   .control-mini-description {
-    width: 5.16vw;
+    width: 99px;
     min-height: 38px;
     margin-bottom: 10px;
   }
@@ -406,5 +400,9 @@
 
   .layout-mobile {
     display: none !important;
+  }
+
+  .left-side {
+    margin-right: 86px;
   }
 }
