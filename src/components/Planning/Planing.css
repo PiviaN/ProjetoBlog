@@ -265,7 +265,7 @@
 
 @media (min-width: 1200px) {
   .planning {
-    background: linear-gradient(90deg, #cbcbcb 62%, #fff 000%);
+    background: linear-gradient(90deg, #cbcbcb calc(50.1% - 4.11vw), #fff 000%);
   }
 
   .custom-row {
@@ -336,10 +336,11 @@
   }
 
   .emphasis-image {
-    width: 40.26vw;
+    width: 40vw;
     height: 344px;
     background-color: #f0f0f0;
     margin-top: 1.75rem;
+    /* margin-left: -3vw; */
   }
 
   .control-title-emphasis {
@@ -374,7 +375,8 @@
   }
 
   .ml-text-emphasis {
-    width: 40.26vw;
+    width: calc(40.26vw - 4.11vw);
+    margin-left: 4.11vw;
   }
 
   .mini-title {
