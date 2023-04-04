@@ -5,7 +5,7 @@ import dots2 from "../../assets/dots-2.png";
 function FindOut() {
   return (
     <>
-      <section className="find-out d-flex align-items-center ">
+      <section className="find-out find-out-desktop d-flex align-items-center ">
         <div
           id="carouselExampleAutoPlaying"
           className="carousel container-custom-desktop slide no-container-mobile"
