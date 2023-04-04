@@ -5,10 +5,10 @@ import dots2 from "../../assets/dots-2.png";
 function FindOut() {
   return (
     <>
-      <section className="find-out d-flex align-items-center justify-content-center find-out-desktop">
+      <section className="find-out d-flex align-items-center container-custom-desktop">
         <div
           id="carouselExampleAutoPlaying"
-          className="carousel slide container no-container-mobile"
+          className="carousel slide no-container-mobile"
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
@@ -34,7 +34,7 @@ function FindOut() {
                 </div>
               </div>
             </div>
-            <div className="carousel-item container">
+            <div className="carousel-item">
               <div className="d-flex flex-column">
                 <div className="control-title">
                   <h1 className="title">para e-commerce & marketplace 2</h1>
@@ -56,7 +56,7 @@ function FindOut() {
                 </div>
               </div>
             </div>
-            <div className="carousel-item container">
+            <div className="carousel-item">
               <div className="d-flex flex-column">
                 <div className="control-title">
                   <h1 className="title">para e-commerce & marketplace 3</h1>

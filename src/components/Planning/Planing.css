@@ -265,7 +265,7 @@
 
 @media (min-width: 1200px) {
   .planning {
-    background: linear-gradient(90deg, #cbcbcb 50%, #fff 50%);
+    background: linear-gradient(90deg, #cbcbcb 62%, #fff 000%);
     width: 75vw;
   }
 
@@ -278,7 +278,7 @@
   }
 
   .title-planning {
-    font-size: 40px;
+    font-size: 2.08vw;
     line-height: 1.25;
   }
 
@@ -302,7 +302,7 @@
   .card-vertical {
     margin-bottom: 36px;
     justify-content: space-between;
-    width: 516px;
+    width: 26.88vw;
     height: 134px;
   }
 
@@ -313,8 +313,8 @@
   }
 
   .control-subtitle-info {
-    width: 250px;
-    height: 38px;
+    width: 13.02vw;
+    min-height: 38px;
   }
 
   .subtitle-info {
@@ -324,7 +324,7 @@
   }
 
   .white-block {
-    width: 250px;
+    width: 13.02vw;
     height: 100%;
     box-shadow: 0px 3px 6px 3px #00000029;
     background-color: #e7e7e7;
@@ -349,8 +349,8 @@
   }
 
   .control-title-emphasis {
-    width: 348px;
-    height: 33px;
+    width: 18.13vw;
+    min-height: 33px;
     margin-bottom: 8px;
     margin-top: 51px;
   }
@@ -360,8 +360,8 @@
   }
 
   .control-subtitle-emphasis {
-    width: 275px;
-    height: 28px;
+    width: 14.32vw;
+    min-height: 28px;
     margin-bottom: 5px;
   }
 
@@ -370,8 +370,8 @@
   }
 
   .control-description-emphasis {
-    width: 551px;
-    height: 62px;
+    width: 28.7vw;
+    min-height: 62px;
     margin-bottom: 1.813rem;
   }
 
@@ -390,8 +390,8 @@
   }
 
   .control-mini-description {
-    width: 99px;
-    height: 38px;
+    width: 5.16vw;
+    min-height: 38px;
     margin-bottom: 10px;
   }
 

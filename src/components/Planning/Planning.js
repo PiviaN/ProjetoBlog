@@ -6,181 +6,176 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 export default function Planning() {
   return (
     <>
-      <section className="planning desktop-layout">
-        <div className="container-custom-planning">
-          <div className="d-flex custom-row">
-            <div className="col-6">
-              <div className="control-title-planning">
-                <h1 className="title-planning">Lorem ipsum dolor sit amet.</h1>
-              </div>
-              <div className="control-subtitle-planning">
-                <h3 className="subtitle-planning">
-                  Lorem ipsum dolor sit amet.
-                </h3>
-              </div>
-              <div className="d-flex flex-column">
-                <div className="d-flex align-items-center card-vertical">
-                  <div className="white-block">
-                    <div className="black-circle black-circle-margin">
-                      <span className="white-number">01</span>
-                    </div>
+      <section className="planning desktop-layout container-custom-planning">
+        <div className="d-flex custom-row">
+          <div className="col-6">
+            <div className="control-title-planning">
+              <h1 className="title-planning">Lorem ipsum dolor sit amet.</h1>
+            </div>
+            <div className="control-subtitle-planning">
+              <h3 className="subtitle-planning">Lorem ipsum dolor sit amet.</h3>
+            </div>
+            <div className="d-flex flex-column">
+              <div className="d-flex align-items-center card-vertical">
+                <div className="white-block">
+                  <div className="black-circle black-circle-margin">
+                    <span className="white-number">01</span>
                   </div>
-                  <div className="info">
-                    <h3 className="title-info">Planejamento</h3>
-                    <div className="control-subtitle-info">
-                      <p className="subtitle-info">
-                        Inteligência para gestão de vendas. Inteligência para
-                        gestão de vendas.
+                </div>
+                <div className="info">
+                  <h3 className="title-info">Planejamento</h3>
+                  <div className="control-subtitle-info">
+                    <p className="subtitle-info">
+                      Inteligência para gestão de vendas. Inteligência para
+                      gestão de vendas.
+                    </p>
+                  </div>
+                  <a
+                    href="https://google.com"
+                    className="link-info-planning link-info-planning-active"
+                  >
+                    Entenda &gt;
+                  </a>
+                </div>
+              </div>
+              <div className="d-flex align-items-center card-vertical">
+                <div className="white-block">
+                  <div className="black-circle black-circle-margin">
+                    <span className="white-number">02</span>
+                  </div>
+                </div>
+                <div className="info">
+                  <h3 className="title-info">Planejamento</h3>
+                  <div className="control-subtitle-info">
+                    <p className="subtitle-info">
+                      Inteligência para gestão de vendas. Inteligência para
+                      gestão de vendas.
+                    </p>
+                  </div>
+                  <a href="https://google.com" className="link-info-planning">
+                    Entenda &gt;
+                  </a>
+                </div>
+              </div>
+              <div className="d-flex align-items-center card-vertical">
+                <div className="white-block">
+                  <div className="black-circle black-circle-margin">
+                    <span className="white-number">03</span>
+                  </div>
+                </div>
+                <div className="info">
+                  <h3 className="title-info">Planejamento</h3>
+                  <div className="control-subtitle-info">
+                    <p className="subtitle-info">
+                      Inteligência para gestão de vendas. Inteligência para
+                      gestão de vendas.
+                    </p>
+                  </div>
+                  <a href="https://google.com" className="link-info-planning">
+                    Entenda &gt;
+                  </a>
+                </div>
+              </div>
+              <div className="d-flex align-items-center card-vertical">
+                <div className="white-block">
+                  <div className="black-circle black-circle-margin">
+                    <span className="white-number">04</span>
+                  </div>
+                </div>
+                <div className="info">
+                  <h3 className="title-info">Planejamento</h3>
+                  <div className="control-subtitle-info">
+                    <p className="subtitle-info">
+                      Inteligência para gestão de vendas. Inteligência para
+                      gestão de vendas.
+                    </p>
+                  </div>
+                  <a href="https://google.com" className="link-info-planning">
+                    Entenda &gt;
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="">
+            <div className="d-flex flex-column">
+              <div className="emphasis-image"></div>
+              <div className="ml-text-emphasis">
+                <div className="control-title-emphasis">
+                  <h3 className="title-emphasis">
+                    Lorem ipsum dolor sit amet.
+                  </h3>
+                </div>
+                <div className="control-subtitle-emphasis">
+                  <p className="subtitle-emphasis">
+                    Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+                <div className="control-description-emphasis">
+                  <p className="description-emphasis">
+                    É a primeira etapa e talvez uma das mais importantes. É onde
+                    as definições acontecem, fazer de forma bem pensada trará
+                    uma economia futura de tempo e com certeza de dinheiro.
+                  </p>
+                </div>
+
+                <div className="d-flex mb-mini">
+                  <div className="d-flex flex-column mr-mini">
+                    <h4 className="mini-title">Lorem ipsum</h4>
+                    <div className="control-mini-description">
+                      <p className="mini-description">
+                        Lorem ipsum dolor sit amet.
                       </p>
                     </div>
                     <a
                       href="https://google.com"
                       className="link-info-planning link-info-planning-active"
                     >
-                      Entenda &gt;
+                      Acessar &gt;
                     </a>
                   </div>
-                </div>
-                <div className="d-flex align-items-center card-vertical">
-                  <div className="white-block">
-                    <div className="black-circle black-circle-margin">
-                      <span className="white-number">02</span>
-                    </div>
-                  </div>
-                  <div className="info">
-                    <h3 className="title-info">Planejamento</h3>
-                    <div className="control-subtitle-info">
-                      <p className="subtitle-info">
-                        Inteligência para gestão de vendas. Inteligência para
-                        gestão de vendas.
+                  <div className="d-flex flex-column mr-mini">
+                    <h4 className="mini-title">Lorem ipsum</h4>
+                    <div className="control-mini-description">
+                      <p className="mini-description">
+                        Lorem ipsum dolor sit amet.
                       </p>
                     </div>
-                    <a href="https://google.com" className="link-info-planning">
-                      Entenda &gt;
+                    <a
+                      href="https://google.com"
+                      className="link-info-planning link-info-planning-active"
+                    >
+                      Acessar &gt;
                     </a>
                   </div>
-                </div>
-                <div className="d-flex align-items-center card-vertical">
-                  <div className="white-block">
-                    <div className="black-circle black-circle-margin">
-                      <span className="white-number">03</span>
-                    </div>
-                  </div>
-                  <div className="info">
-                    <h3 className="title-info">Planejamento</h3>
-                    <div className="control-subtitle-info">
-                      <p className="subtitle-info">
-                        Inteligência para gestão de vendas. Inteligência para
-                        gestão de vendas.
+                  <div className="d-flex flex-column mr-mini">
+                    <h4 className="mini-title">Lorem ipsum</h4>
+                    <div className="control-mini-description">
+                      <p className="mini-description">
+                        Lorem ipsum dolor sit amet.
                       </p>
                     </div>
-                    <a href="https://google.com" className="link-info-planning">
-                      Entenda &gt;
+                    <a
+                      href="https://google.com"
+                      className="link-info-planning link-info-planning-active"
+                    >
+                      Acessar &gt;
                     </a>
                   </div>
                 </div>
-                <div className="d-flex align-items-center card-vertical">
-                  <div className="white-block">
-                    <div className="black-circle black-circle-margin">
-                      <span className="white-number">04</span>
+                <div className="d-flex justify-content-center align-items-center mt-circles">
+                  <div className="d-flex align-items-center">
+                    <div className="black-circle mr-circle hover-circle">
+                      <span className="white-number">01</span>
                     </div>
-                  </div>
-                  <div className="info">
-                    <h3 className="title-info">Planejamento</h3>
-                    <div className="control-subtitle-info">
-                      <p className="subtitle-info">
-                        Inteligência para gestão de vendas. Inteligência para
-                        gestão de vendas.
-                      </p>
+                    <div className="white-circle mr-circle hover-circle">
+                      <span className="black-number">02</span>
                     </div>
-                    <a href="https://google.com" className="link-info-planning">
-                      Entenda &gt;
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="">
-              <div className="d-flex flex-column">
-                <div className="emphasis-image"></div>
-                <div className="ml-text-emphasis">
-                  <div className="control-title-emphasis">
-                    <h3 className="title-emphasis">
-                      Lorem ipsum dolor sit amet.
-                    </h3>
-                  </div>
-                  <div className="control-subtitle-emphasis">
-                    <p className="subtitle-emphasis">
-                      Lorem ipsum dolor sit amet.
-                    </p>
-                  </div>
-                  <div className="control-description-emphasis">
-                    <p className="description-emphasis">
-                      É a primeira etapa e talvez uma das mais importantes. É
-                      onde as definições acontecem, fazer de forma bem pensada
-                      trará uma economia futura de tempo e com certeza de
-                      dinheiro.
-                    </p>
-                  </div>
-
-                  <div className="d-flex mb-mini">
-                    <div className="d-flex flex-column mr-mini">
-                      <h4 className="mini-title">Lorem ipsum</h4>
-                      <div className="control-mini-description">
-                        <p className="mini-description">
-                          Lorem ipsum dolor sit amet.
-                        </p>
-                      </div>
-                      <a
-                        href="https://google.com"
-                        className="link-info-planning link-info-planning-active"
-                      >
-                        Acessar &gt;
-                      </a>
+                    <div className="white-circle mr-circle hover-circle">
+                      <span className="black-number">03</span>
                     </div>
-                    <div className="d-flex flex-column mr-mini">
-                      <h4 className="mini-title">Lorem ipsum</h4>
-                      <div className="control-mini-description">
-                        <p className="mini-description">
-                          Lorem ipsum dolor sit amet.
-                        </p>
-                      </div>
-                      <a
-                        href="https://google.com"
-                        className="link-info-planning link-info-planning-active"
-                      >
-                        Acessar &gt;
-                      </a>
-                    </div>
-                    <div className="d-flex flex-column mr-mini">
-                      <h4 className="mini-title">Lorem ipsum</h4>
-                      <div className="control-mini-description">
-                        <p className="mini-description">
-                          Lorem ipsum dolor sit amet.
-                        </p>
-                      </div>
-                      <a
-                        href="https://google.com"
-                        className="link-info-planning link-info-planning-active"
-                      >
-                        Acessar &gt;
-                      </a>
-                    </div>
-                  </div>
-                  <div className="d-flex justify-content-center align-items-center mt-circles">
-                    <div className="d-flex align-items-center">
-                      <div className="black-circle mr-circle hover-circle">
-                        <span className="white-number">01</span>
-                      </div>
-                      <div className="white-circle mr-circle hover-circle">
-                        <span className="black-number">02</span>
-                      </div>
-                      <div className="white-circle mr-circle hover-circle">
-                        <span className="black-number">03</span>
-                      </div>
-                      <div className="white-circle mr-circle hover-circle">
-                        <span className="black-number">04</span>
-                      </div>
+                    <div className="white-circle mr-circle hover-circle">
+                      <span className="black-number">04</span>
                     </div>
                   </div>
                 </div>
